@@ -110,7 +110,7 @@ export default function Home() {
         <BlurFade delay={BLUR_FADE_DELAY * 3} inView>
           <div className="mx-auto w-full max-w-2xl space-y-4">
             <h2 className="text-xl font-bold">About</h2>
-            <p className="text-neutral-500 dark:text-neutral-400 text-sm md:text-base text-pretty font-sans">
+            <p className="text-neutral-500 dark:text-neutral-400 text-sm md:text-base text-pretty font-sans hover:text-gray-100">
               {DATA.summary}
             </p>
           </div>
@@ -134,14 +134,14 @@ export default function Home() {
                 delay={BLUR_FADE_DELAY * 5 + id * 0.05}
                 inView
               >
-                <div className="flex flex-col space-y-1 pl-4 relative p-4">
+                <div className="flex flex-col space-y-1 pl-4 relative p-4 ">
 
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between  ">
                     <h3 className="font-semibold text-lg">{work.company}</h3>
                     <span className="text-xs text-neutral-500 dark:text-neutral-400">{work.start} - {work.end}</span>
                   </div>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400">{work.title}</p>
-                  <ul className="list-disc list-inside text-xs text-neutral-500 dark:text-neutral-500 mt-2 space-y-1">
+                  <ul className="list-disc list-inside text-xs text-neutral-500 dark:text-neutral-500 mt-2 space-y-1  hover:text-gray-100">
                     {work.description.map((point, i) => (
                       <li key={i} className="text-pretty">{point}</li>
                     ))}
