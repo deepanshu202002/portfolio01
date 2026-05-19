@@ -96,6 +96,15 @@ export const DATA = {
     ],
     education: [
         {
+            school: "Queen's University Belfast - GIFT City",
+            href: "https://www.qub.ac.uk/india/",
+            degree: "MSc Business Analytics",
+            logoUrl: "",
+            start: "2026",
+            end: "2027",
+            grade: "",
+        },
+        {
             school: "Jaipur Engineering College and Research Center",
             href: "",
             degree: "Bachelor of Technology in Information Technology",
@@ -175,6 +184,60 @@ export const DATA = {
                 href: "https://github.com/deepanshu202002/Doctor_Appointment",
                 icon: "github",
             }],
+            image: "",
+            video: "",
+        },
+        {
+            title: "LegalEase",
+            href: "https://legalease-frontend-588369213562.us-central1.run.app/",
+            dates: "May 2026",
+            active: true,
+            description:
+                "AI-Powered Contract Analysis Platform. Built a full-stack system featuring a FastAPI backend powered by Google Gemini and a Next.js frontend. Implemented RAG (Retrieval-Augmented Generation) with MongoDB Atlas vector search for deep semantic search, risk scoring, and interactive legal grounding. Containerized and automated full CI/CD deployment to Google Cloud Run.",
+            technologies: [
+                "Next.js",
+                "FastAPI",
+                "Google Gemini",
+                "MongoDB",
+                "Docker",
+                "GCP Cloud Run"
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://legalease-frontend-588369213562.us-central1.run.app/",
+                    icon: "globe",
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/deepanshu202002/legalease",
+                    icon: "github",
+                },
+            ],
+            image: "",
+            video: "",
+        },
+        {
+            title: "LogisticAI",
+            href: "",
+            dates: "May 2026",
+            active: true,
+            description:
+                "AI-driven logistics and route optimization engine. Engineered a Python backend leveraging machine learning models (Random Forest, XGBoost) and a custom disruption engine for predictive routing. Integrated with a modern Next.js frontend using Drizzle ORM to visualize routing data.",
+            technologies: [
+                "Next.js",
+                "Python",
+                "Machine Learning",
+                "Drizzle ORM",
+                "Docker"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/deepanshu202002/logisticai",
+                    icon: "github",
+                },
+            ],
             image: "",
             video: "",
         },

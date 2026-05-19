@@ -168,7 +168,13 @@ export default function Home() {
               >
                 <div className="flex flex-col space-y-1">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-                    <h3 className="font-semibold">{edu.school}</h3>
+                    {edu.href ? (
+                      <Link href={edu.href} target="_blank" className="hover:underline hover:text-red-500 transition-colors">
+                        <h3 className="font-semibold">{edu.school}</h3>
+                      </Link>
+                    ) : (
+                      <h3 className="font-semibold">{edu.school}</h3>
+                    )}
                     <span className="text-xs text-neutral-500">{edu.start} - {edu.end}</span>
                   </div>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400">{edu.degree}</p>
