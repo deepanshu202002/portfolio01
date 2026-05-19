@@ -241,7 +241,7 @@ export default function Home() {
               </div>
             </BlurFade>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto px-4">
-              {DATA.projects.map((project, id) => (
+              {DATA.projects.slice().reverse().map((project, id) => (
                 <BlurFade
                   key={project.title}
                   delay={BLUR_FADE_DELAY * 11 + id * 0.05}

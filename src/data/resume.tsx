@@ -115,36 +115,7 @@ export const DATA = {
         },
     ],
     projects: [
-        {
-            title: "RevuHub",
-            href: "https://github.com/deepanshu202002/revuhub-nextjs-k8s", // Inferred from Github profile link context
-            dates: "Oct 2025",
-            active: true,
-            description:
-                "AI-Powered Product Review Platform. Engineered a fine-tuned DistilBert toxicity classifier with a FastApi-based AI interface. Developed frontend/API using Next.js with Google OAuth. Containerized with Docker and deployed on Kubernetes.",
-            technologies: [
-                "Next.js",
-                "Python",
-                "FastAPI",
-                "Docker",
-                "Kubernetes",
-                "Github Actions",
-            ],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://revuhub.vercel.app", // Hypothetical link or just Github
-                    icon: "globe",
-                },
-                {
-                    type: "Source",
-                    href: "https://github.com/deepanshu202002/", // Adding generic if specific not known
-                    icon: "github",
-                },
-            ],
-            image: "",
-            video: "",
-        },
+       
         {
             title: "Coffee Shop App",
             href: "",
@@ -184,6 +155,36 @@ export const DATA = {
                 href: "https://github.com/deepanshu202002/Doctor_Appointment",
                 icon: "github",
             }],
+            image: "",
+            video: "",
+        },
+         {
+            title: "RevuHub",
+            href: "https://github.com/deepanshu202002/revuhub-nextjs-k8s", // Inferred from Github profile link context
+            dates: "Oct 2025",
+            active: true,
+            description:
+                "AI-Powered Product Review Platform. Engineered a fine-tuned DistilBert toxicity classifier with a FastApi-based AI interface. Developed frontend/API using Next.js with Google OAuth. Containerized with Docker and deployed on Kubernetes.",
+            technologies: [
+                "Next.js",
+                "Python",
+                "FastAPI",
+                "Docker",
+                "Kubernetes",
+                "Github Actions",
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://revuhub.vercel.app", // Hypothetical link or just Github
+                    icon: "globe",
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/deepanshu202002/", // Adding generic if specific not known
+                    icon: "github",
+                },
+            ],
             image: "",
             video: "",
         },
